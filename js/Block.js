@@ -4,7 +4,7 @@ class Block{
             
             isStatic: false,
             restitution : 0.3,
-            friction : 0.7,
+            friction : 0.3,
             density : 1.2
         }
 

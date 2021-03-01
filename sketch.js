@@ -25,9 +25,9 @@ function setup() {
   world = engine.world;
   
   bottom = new Ground(900, 775, 1800, 20);
-  hero = new Hero(500, 200, 106);
-  rope = new Rope(hero.body, {x: 210, y: 50})
-  monster = new Monster(1500, 500, 20);
+  hero = new Hero(350, 550, 106);
+  rope = new Rope(hero.body, {x: 450, y: 50})
+  monster = new Monster(1200, 500, 20);
 
   block1 = new Block(800, 600, 75, 75);
 	block2 = new Block(800, 520, 75, 75);
